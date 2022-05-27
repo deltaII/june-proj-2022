@@ -78,7 +78,7 @@ public class Game {
 	
 	private String prompt(String msg) {
 		System.out.print(msg);
-		return in.nextLine();
+		return in.nextLine().strip().toUpperCase();
 	}
 	
 	private void setup() {
