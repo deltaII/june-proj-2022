@@ -1,0 +1,11 @@
+# The message when the room is entered
+Welcome, brave adventurer! You now seek a path never trecked befpre—an interactive exploration of the Great Gatsby and Campbell's Soup Cans through critical theory and semiotics. You will stumble on many paths on your journey to understand Americanness.
+
+# The passageways avaliable to take
+# Each are in the format:
+#   <message>
+#   <keyword>
+#   <destination>
+Type START to begin
+START
+end.txt
