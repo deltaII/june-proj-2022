@@ -15,6 +15,7 @@ public class Room {
 	public Room(BufferedReader reader, ArrayList<String> roomFiles) 
 			throws IOException, Passageway.ParsingException {
 		// Read in message
+		//first line that isnt a comment or empty is message variable
 		String message;
         while ((message = reader.readLine()) != null) {
         	// Ignore empty lines and comments
@@ -22,18 +23,21 @@ public class Room {
         		continue;
         	}
         	this.message = message;
+        	this.message = this.message.replace("\\n", "\n");
         	break;
         }
 
         // Read in passageways
+        //second passageway not being added
         this.passageways = new ArrayList<Passageway>();
         Passageway lastPassageway;
         while (reader.ready()) {
-        	lastPassageway = new Passageway(reader, roomFiles);
-        	if (lastPassageway != null) {
-        		this.passageways.add(lastPassageway);
-        	}
+        	System.out.println("a");
+        	Passageway a = new Passageway(reader, roomFiles);
+        	passageways.add(a);
+        	System.out.println(a.getKeyword());
         }
+        
 	}
 	
 	public String getMessage() {
