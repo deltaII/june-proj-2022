@@ -19,27 +19,24 @@ public class Passageway {
 		this.destination = destination;
 	}
 	
-	public Passageway(BufferedReader reader, ArrayList<String> roomFiles) 
+	public Passageway(String firstLineOfSet, BufferedReader reader, ArrayList<String> roomFiles) 
 			throws IOException, ParsingException {
+		this.explanation = firstLineOfSet;
+		
 		// Read in properties
 		String line;
 		int state = 0;
-        while ((line = reader.readLine()) != null) {
+        while ((line = reader.readLine()) != null && state != 2) {
         	// Ignore empty lines and comments
         	if (line.isEmpty() || line.charAt(0) == '#') {
         		continue;
         	}
-        	
         	switch (state) {
         	case 0:
-        		this.explanation = line;
-            	state++;
-        		break;
-        	case 1:
         		this.keyword = line;
             	state++;
         		break;
-        	case 2:
+        	case 1:
         		boolean foundRoomIndex = false;
         		for (int i = 0; i < roomFiles.size(); i++) {
         			String roomFile = roomFiles.get(i);
@@ -59,10 +56,12 @@ public class Passageway {
         	}
         }
         
-        if (state < 3) {
-        	String[] pointAtFail = { "explanation", "keyword", "destination" };
+        if (state == 0) {
+        	throw new ParsingException("Extra empty lines/comments at the end of file: should end right after room message if no passageways wanted");
+        } else if (state < 2) {
+        	String[] pointAtFail = { "keyword", "destination" };
         	throw new ParsingException("Passageway entry missing " + pointAtFail[state]);
-        } else if (state > 3) {
+        } else if (state > 2) {
         	throw new ParsingException("Something went horribly wrong parsing passageway entry");
 
         }

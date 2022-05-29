@@ -1,9 +1,2 @@
 # The message when the room is entered
-Welcome to the Museum of Ideas! Here you can explore different takes on The Great Gatsby and Andy Warhol's Campbell Soup Cans.
-
-# The passageways avaliable to take
-# Each are in the format:
-#   <message>
-#   <keyword>
-#   <destination>
-
+"Quote here"\n\nThis is a cool exhibit

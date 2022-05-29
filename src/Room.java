@@ -28,14 +28,21 @@ public class Room {
         }
 
         // Read in passageways
-        //second passageway not being added
         this.passageways = new ArrayList<Passageway>();
-        Passageway lastPassageway;
-        while (reader.ready()) {
-        	System.out.println("a");
-        	Passageway a = new Passageway(reader, roomFiles);
+    	String firstLineOfSet;
+        while (true) {
+            while ((firstLineOfSet = reader.readLine()) != null) {
+            	// Ignore empty lines and comments
+            	if (firstLineOfSet.isEmpty() || firstLineOfSet.charAt(0) == '#') {
+            		continue;
+            	}
+            	break;
+            }
+        	if (firstLineOfSet == null) {
+        		return;
+        	}
+        	Passageway a = new Passageway(firstLineOfSet, reader, roomFiles);
         	passageways.add(a);
-        	System.out.println(a.getKeyword());
         }
         
 	}
