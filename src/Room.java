@@ -22,9 +22,17 @@ public class Room {
         	if (message.isEmpty() || message.charAt(0) == '#') {
         		continue;
         	}
-        	this.message = message;
-        	this.message = this.message.replace("\\n", "\n");
+        	this.message = message.replace("\\n", "\n");
         	break;
+        }
+        
+        while ((message = reader.readLine()) != null) {
+        	// Ignore empty lines and comments
+        	if (message.startsWith("\\n")) {
+            	this.message += message.replace("\\n", "\n");
+        	} else {
+        		break;
+        	}
         }
 
         // Read in passageways

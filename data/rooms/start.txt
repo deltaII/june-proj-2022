@@ -6,14 +6,6 @@ Welcome, brave adventurer! You now seek a path never trecked befpre—an interac
 #   <keyword>
 #   <destination>
 
-Type EXHIBIT to view the exhibit
+Type EXHIBIT to view the test exhibit
 EXHIBIT
 exhibit.txt
-
-Type A to leave and reenter this same room
-A
-start.txt
-
-Type END to go to end
-END
-end.txt

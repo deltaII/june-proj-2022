@@ -1,2 +1,12 @@
-# The message when the room is entered
-"Quote here"\n\nThis is a cool exhibit
+"He took out a pile of shirts and began throwing them, one by one, before us, shirts of sheer linen and thick silk and fine flannel, which lost their folds as they fell and covered the table in many-colored disarray. While we admired he brought more and the soft rich heap mounted higher — shirts with stripes and scrolls and plaids in coral and apple-green and lavender and faint orange, and monograms of Indian blue.\nSuddenly, with a strained sound, Daisy bent her head into the shirts and began to cry stormily.
+\n'They’re such beautiful shirts,' she sobbed, her voice muffled in the thick folds. 'It makes me sad because I’ve never seen such — such beautiful shirts before.'"
+\n
+\nTesting
+
+Type START to go back to start
+START
+start.txt
+
+Type END to end this program
+END
+end.txt
