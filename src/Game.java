@@ -68,7 +68,14 @@ public class Game {
 				String keyword = prompt("> ");
 				passage = room.determinePassageway(keyword);
 				if (passage == null) {
-					System.out.println("Please choose one of the avaliable paths.");
+					ArrayList<String> possibilities = room.findCorrectSpelling(keyword);
+					System.out.println("Sorry, '" + keyword + "' isn't not a path you can take here.");
+					if (!possibilities.isEmpty()) {
+						System.out.println("Did you mean:");
+						for (String possibility: possibilities) {
+							System.out.println(" -> " + possibility);
+						}
+					}
 				}
 			}
 			currentRoom = passage.getDestination();

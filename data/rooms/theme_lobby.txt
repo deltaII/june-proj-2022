@@ -1,0 +1,9 @@
+Hello! This is the theme lobby
+
+Type START to go back to the beginning
+START
+start.txt
+
+Type AUTHENTIC to explore how the two works treat authenticity
+AUTHENTIC
+themes/authentic_lobby.txt

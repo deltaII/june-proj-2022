@@ -1,0 +1,5 @@
+Semiotics lobby!
+
+Type BACK to return to the lenses lobby
+BACK
+lens_lobby.txt

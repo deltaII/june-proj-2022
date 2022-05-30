@@ -3,3 +3,10 @@
 start.txt
 end.txt
 exhibit.txt
+theme_lobby.txt
+lens_lobby.txt
+themes/authentic_lobby.txt
+themes/authentic_gatsby.txt
+themes/authentic_soup.txt
+lens/marxist_lobby.txt
+lens/semiotics_lobby.txt
