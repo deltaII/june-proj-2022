@@ -1,0 +1,5 @@
+Gatsby wealth
+
+Type BACK to go back to wealth theme lobby
+BACK
+themes/wealth_lobby.txt

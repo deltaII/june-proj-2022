@@ -1,0 +1,13 @@
+Welcome to American Dream!
+
+Type BACK to go back to theme lobby
+BACK
+theme_lobby.txt
+
+Type GATSBY to explore how The Great Gatsby follows the American Dream
+GATSBY
+themes/american_dream_gatsby.txt
+
+Type CAMPBELL to explore how Warhol follows the American Dream
+CAMPBELL
+themes/american_dream_campbell.txt

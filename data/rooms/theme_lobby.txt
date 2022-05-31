@@ -15,3 +15,11 @@ themes/culture_lobby.txt
 Type SIGNS to explore different signs in each work
 SIGNS
 themes/signs_lobby.txt
+
+Type WEALTH to explore their different takes on wealth
+WEALTH
+themes/wealth_lobby.txt
+
+Type AMERICAN DREAM to explore the American Dream
+AMERICAN DREAM
+themes/american_dream_lobby.txt

@@ -16,3 +16,9 @@ themes/culture_soup.txt
 themes/signs_gatsby.txt
 themes/signs_lobby.txt
 themes/signs_soup.txt
+themes/wealth_lobby.txt
+themes/wealth_gatsby.txt
+themes/wealth_soup.txt
+themes/american_dream_lobby.txt
+themes/american_dream_gatsby.txt
+themes/american_dream_soup.txt
