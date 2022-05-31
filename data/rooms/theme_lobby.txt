@@ -7,3 +7,11 @@ start.txt
 Type AUTHENTIC to explore how the two works treat authenticity
 AUTHENTIC
 themes/authentic_lobby.txt
+
+Type CULTURE to explore how the two works treat culture
+CULTURE
+themes/culture_lobby.txt
+
+Type SIGNS to explore different signs in each work
+SIGNS
+themes/signs_lobby.txt

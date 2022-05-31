@@ -8,6 +8,6 @@ Type GATSBY to explore how Gatsby treats authenticity
 GATSBY
 themes/authentic_gatsby.txt
 
-Type CAMPELL to explore how Warhol treats authenticity
-CAMPELL
+Type CAMPBELL to explore how Warhol treats authenticity
+CAMPBELL
 themes/authentic_soup.txt
