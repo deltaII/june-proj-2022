@@ -8,7 +8,6 @@ lens_lobby.txt
 themes/authentic_lobby.txt
 themes/authentic_gatsby.txt
 themes/authentic_soup.txt
-lens/marxist_lobby.txt
 lens/semiotics_lobby.txt
 themes/culture_gatsby.txt
 themes/culture_lobby.txt
