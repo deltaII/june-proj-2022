@@ -10,4 +10,4 @@ themes/american_dream_gatsby.txt
 
 Type CAMPBELL to explore how Warhol follows the American Dream
 CAMPBELL
-themes/american_dream_campbell.txt
+themes/american_dream_soup.txt
