@@ -9,7 +9,3 @@ start.txt
 Type SEMIOTICS to view the works through semiotics
 SEMIOTICS
 lens/semiotics_lobby.txt
-
-Type MARXIST to view the works through marxist theory
-MARXIST
-lens/marxist_lobby.txt

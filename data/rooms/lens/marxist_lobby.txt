@@ -1,5 +1,0 @@
-totally not everyone starving to death !
-
-Type BACK to return to the lenses lobby
-BACK
-lens_lobby.txt
