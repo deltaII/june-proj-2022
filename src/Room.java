@@ -139,8 +139,9 @@ public class Room {
 	public void display() {
 		System.out.println(message);
 		if (hasPassageways()) {
+			System.out.println();
 			for (Passageway passageway: passageways) {
-				System.out.println("-> " + passageway.getExplanation());
+				System.out.println(" -> " + passageway.getExplanation());
 			}
 		}
 		System.out.println();

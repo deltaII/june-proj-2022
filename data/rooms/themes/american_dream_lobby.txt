@@ -2,7 +2,7 @@ Welcome to American Dream!
 
 Type BACK to go back to theme lobby
 BACK
-theme_lobby.txt
+lobbies/themes.txt
 
 Type GATSBY to explore how The Great Gatsby follows the American Dream
 GATSBY

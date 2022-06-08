@@ -1,8 +1,9 @@
-Welcome to authentic lobby
+Welcome to the authenticity lobby! Here you will find true and false selves of many colors.
+\nThe framing for the comparison is analyzing Gatsby as oversaturated and the cans as undersaturated.
 
 Type BACK to go back to theme lobby
 BACK
-theme_lobby.txt
+lobbies/themes.txt
 
 Type GATSBY to explore how Gatsby treats authenticity
 GATSBY

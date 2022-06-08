@@ -2,7 +2,7 @@ Welcome to the culture lobby!
 
 Type BACK to go back to theme lobby
 BACK
-theme_lobby.txt
+lobbies/themes.txt
 
 Type GATSBY to explore how Gatsby treats culture
 GATSBY

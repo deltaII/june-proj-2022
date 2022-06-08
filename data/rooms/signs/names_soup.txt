@@ -1,5 +1,5 @@
 The word "can" is a word in the English dictionary. It is both an object used to store food and a verb meaning to be allowed to. The cans themselves are iconic: Campbell's soup cans are some of the most popular soup cans in America. 
 
-Type BACK to go back to signs theme lobby
+Type BACK to return to the signs lobby.
 BACK
-themes/signs_lobby.txt
+lobbies/signs.txt

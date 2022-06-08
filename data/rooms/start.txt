@@ -1,9 +1,0 @@
-Welcome, brave adventurer! You now seek a path never trecked befpre—an interactive exploration of the Great Gatsby and Campbell's Soup Cans through critical theory and semiotics. You will stumble on many paths on your journey to understand Americanness.
-
-Type LENS to look at the works thrpugh different lenses
-LENS
-lens_lobby.txt
-
-Type THEME to look at themes in the works
-THEME
-theme_lobby.txt

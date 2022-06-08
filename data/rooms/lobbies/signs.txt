@@ -1,0 +1,11 @@
+Welcome to the signs lobby!
+\n
+\nSuch an interesting gallery...you made a good choice. Do the works deal with American iconography or are they iconographs themselves? This question is open-ended, much like the choice of paths you can take from here.
+
+Type BACK to return to the atrium.
+BACK
+atrium.txt
+
+# Here we would have
+# a passageway to a lobby
+# considering a specific sign

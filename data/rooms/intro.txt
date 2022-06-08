@@ -1,0 +1,13 @@
+The Museum of Ideas
+\n by Alex Fou and Ethan Uppal
+\n A+ project
+\n
+\nWelcome to the Museum of Ideas, where you will find ideas big and small. How have American ideas permeated the Great Gatsby and Campbell's Soup Cans? In what ways do these ideas flow between the works, and in what ways do they repel?
+\n
+\nThe works studied are Fitzgerald's Great Gatsby and Warhol's Campell's Soup Cans. This museum is arranged as a maze of galleries; the room you are currently in is the atrium. Navigating through winding passageway, you will come across exhibits that present an argument about a work, each in the form of a miniature quote sandwich. For the painting, a description of the elements of the painting will replace the quote.
+\n
+\nTry not to get lost! Or try to get lost...
+
+Type DARE if you dare to enter.
+DARE
+atrium.txt
