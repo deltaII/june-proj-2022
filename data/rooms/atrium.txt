@@ -10,6 +10,6 @@ Type SIGNS to disassemble the works and American culture. Nothing is free from s
 SIGNS
 lobbies/signs.txt
 
-Type BACK to return to the beginning...or the end?
-BACK
+Type YET to return to the beginning...or the end?
+YET
 intro.txt

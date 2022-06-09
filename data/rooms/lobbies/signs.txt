@@ -4,9 +4,13 @@
 
 You wander down a dimly-lit hallway to the room, passing a painting of eyeballs. You almost missed the painting as if it were invisible.
 
-# Here we would have
-# a passageway to a lobby
-# considering a specific sign
+Type CAN to deconstruct the metallic cylinder, peeling off its cover and warping the aluminum.
+CAN
+signs/can_soup.txt
+
+Type NAME to feel the power of the thing-identifier.
+NAME
+signs/name_gatsby.txt
 
 Type BACK to return to the atrium.
 BACK

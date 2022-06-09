@@ -67,6 +67,7 @@ public class Game {
 		room = rooms.get(currentRoom);
 
 		while (true) {
+			boolean isReturning = false;
 			journey.add(currentRoom);
 			room.display();
 			if (!room.hasPassageways()) {
@@ -89,12 +90,18 @@ public class Game {
 								System.out.println(" -> " + possibility);
 							}
 						}
+					} else if (keyword.equals("BACK")) {
+						isReturning = true;
 					}
 				}
 			}
 			currentRoom = passage.getDestination();
 			room = rooms.get(currentRoom);
-			displayWander(room.getWander());
+			if (isReturning) {
+				displayWander("Returning...", 0);
+			} else {
+				displayWander(room.getWander(), 5);
+			}
 		}
 		in.close();
 	}
@@ -119,11 +126,13 @@ public class Game {
 		}
 	}
 	
-	private void displayWander(String wander) {
+	private void displayWander(String wander, int dots) {
 		try {
 			System.out.println();
-			displayDots(3, 5);
-			Thread.sleep((long)(Math.random() * 1000));
+			if (dots > 0) {
+				displayDots(3, dots);
+				Thread.sleep((long)(Math.random() * 1000));
+			}
 			for (int i = 0; i < wander.length(); i++) {
 				System.out.print(wander.charAt(i));
 				switch (wander.charAt(i)) {
@@ -143,7 +152,9 @@ public class Game {
 				}
 			}
 			System.out.println();
-			displayDots(3, 5);
+			if (dots > 0) {
+				displayDots(3, dots);
+			}
 			Thread.sleep(500);
 			System.out.println();
 		} catch (InterruptedException e) {

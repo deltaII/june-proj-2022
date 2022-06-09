@@ -1,0 +1,7 @@
+can soup sign
+
+"Cans can can cans" is a grammatical English sentence? Oh. It must be a long hallway.
+
+Type BACK to return to the sign lobby.
+BACK
+lobbies/signs.txt

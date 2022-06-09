@@ -27,6 +27,8 @@ themes/american_dream_gatsby.txt
 themes/american_dream_soup.txt
 
 # Signs
+signs/can_soup.txt
+signs/name_gatsby.txt
 
 # idk about this one
 signs/names_soup.txt
