@@ -6,7 +6,7 @@ Type THEMES to explore a different facet of each work. It's marvelous how much a
 THEMES
 lobbies/themes.txt
 
-Type SIGNS to disassemble the works and American culture. Nothing is free from sin.
+Type SIGNS to disassemble the works. Nothing is free from deconstruction except, perhaps, a quark.
 SIGNS
 lobbies/signs.txt
 
