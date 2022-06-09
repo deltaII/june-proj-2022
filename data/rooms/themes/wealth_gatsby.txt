@@ -1,5 +1,7 @@
 Gatsby wealth
 
+The corridor is narrow. You squeeze past the beige wallpaper peeling off to the door on the far left.
+
 Type BACK to go back to wealth theme lobby
 BACK
 themes/wealth_lobby.txt

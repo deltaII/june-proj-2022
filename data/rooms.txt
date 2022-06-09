@@ -3,6 +3,10 @@
 # Starting file
 intro.txt
 
+# Tutorial
+tutorial/1.txt
+tutorial/2.txt
+
 # Lobbies
 atrium.txt
 lobbies/themes.txt

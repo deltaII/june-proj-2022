@@ -4,8 +4,8 @@ import java.io.IOException;
 
 public class Passageway {
 	public class ParsingException extends Exception {
-		public ParsingException(String message) {
-			super(message);
+		public ParsingException(String file, String message) {
+			super(file + ": " + message);
 		}
 	}
 	
@@ -19,7 +19,7 @@ public class Passageway {
 		this.destination = destination;
 	}
 	
-	public Passageway(String firstLineOfSet, BufferedReader reader, ArrayList<String> roomFiles) 
+	public Passageway(String file, String firstLineOfSet, BufferedReader reader, ArrayList<String> roomFiles) 
 			throws IOException, ParsingException {
 		this.explanation = firstLineOfSet;
 		
@@ -47,7 +47,7 @@ public class Passageway {
         			}
         		}
         		if (!foundRoomIndex) {
-        			throw new ParsingException("Invalid room file '" + line + "'");
+        			throw new ParsingException(file, "Invalid room destination '" + line + "'");
         		}
             	state++;
         		break;
@@ -57,12 +57,12 @@ public class Passageway {
         }
         
         if (state == 0) {
-        	throw new ParsingException("Extra empty lines/comments at the end of file: should end right after room message if no passageways wanted");
+        	throw new ParsingException(file, "Extra empty lines/comments at the end of file: should end right after room message if no passageways wanted");
         } else if (state < 2) {
         	String[] pointAtFail = { "keyword", "destination" };
-        	throw new ParsingException("Passageway entry missing " + pointAtFail[state]);
+        	throw new ParsingException(file, "Passageway entry missing " + pointAtFail[state]);
         } else if (state > 2) {
-        	throw new ParsingException("Something went horribly wrong parsing passageway entry");
+        	throw new ParsingException(file, "Something went horribly wrong parsing passageway entry");
 
         }
 	}

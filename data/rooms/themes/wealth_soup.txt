@@ -1,5 +1,7 @@
 Soup cans are cheap. One can of Campbell's tomato soup is under $2 per can. On the other hand, Andy Warhol's Campbell Soup Cans sold for nearly $500 thousand per can. 
 
+Wander TBD
+
 Type BACK to go back to wealth theme lobby
 BACK
 themes/wealth_lobby.txt

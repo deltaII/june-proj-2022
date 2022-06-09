@@ -1,0 +1,8 @@
+Welcome to tutorial room 2!
+\nNow that you know how the game works, here is one other thing. At any point, to see where you are and where you have gone, type JOURNEY.
+
+You are going into the second tutorial room.
+
+That's it! Type READY to return to the introduction.
+READY
+intro.txt

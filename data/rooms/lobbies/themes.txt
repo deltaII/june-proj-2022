@@ -1,21 +1,23 @@
-Welcome to the theme lobby. Try on neon-tinted glasses for size.
+Welcome to the theme lobby. Try on orange-tinted glasses for size.
 
-Type BACK to return to the atrium.
-BACK
-atrium.txt
+Painted on the walls in blood is a large letter. You wonder what it stands for and continue down the hallway.
 
 Type AUTHENTIC to bridge the gap between the true and the false.
 AUTHENTIC
 themes/authentic_lobby.txt
 
-Type WEALTH to explore their different takes on wealth
+Type WEALTH to amuse yourself with the silvers and greens.
 WEALTH
 themes/wealth_lobby.txt
 
-Type DREAM to fall into a deep slumber. Maybe, suspended by Hypnos, you'll learn about the American Dream.
+Type DREAM to fall into a deep slumber. 
 DREAM
 themes/american_dream_lobby.txt
 
 Type CULTURE to explore how the two works treat culture?? do we need this??? im a bit confused what this is for can you explain to me doesn't mean we need to get rid of it
 CULTURE
 themes/culture_lobby.txt
+
+Type BACK to return to the atrium.
+BACK
+atrium.txt

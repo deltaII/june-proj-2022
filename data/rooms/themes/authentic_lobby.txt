@@ -1,9 +1,7 @@
 Welcome to the authenticity lobby! Here you will find true and false selves of many colors.
 \nThe framing for the comparison is analyzing Gatsby as oversaturated and the cans as undersaturated.
 
-Type BACK to go back to theme lobby
-BACK
-lobbies/themes.txt
+You pass a still life of a bakery. Do you like cake with tea? In my experience, it tends to become sour.
 
 Type GATSBY to explore how Gatsby treats authenticity
 GATSBY
@@ -12,3 +10,7 @@ themes/authentic_gatsby.txt
 Type CAMPBELL to explore how Warhol treats authenticity
 CAMPBELL
 themes/authentic_soup.txt
+
+Type BACK to go back to theme lobby
+BACK
+lobbies/themes.txt

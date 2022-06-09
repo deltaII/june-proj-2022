@@ -1,5 +1,7 @@
 Welcome to the atrium. Rhizomatically you shall wander.
 
+Preparing the code: it contains multitudes.
+
 Type THEMES to explore a different facet of each work. It's marvelous how much a simple shift in perspective can alter reality.
 THEMES
 lobbies/themes.txt
@@ -8,6 +10,6 @@ Type SIGNS to disassemble the works and American culture. Nothing is free from s
 SIGNS
 lobbies/signs.txt
 
-Type START to return to the beginning...or the end?
-START
+Type BACK to return to the beginning...or the end?
+BACK
 intro.txt

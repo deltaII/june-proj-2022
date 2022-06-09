@@ -1,13 +1,15 @@
-Welcome to American Dream!
+Welcome to the dream lobby. You've fallen into a deep slumber. Maybe, suspended by Hypnos, you'll learn about the American Dream. Be careful that you don't hang too precariously.
 
-Type BACK to go back to theme lobby
-BACK
-lobbies/themes.txt
+Night is a wonderful thing. This place is so dark, you think, you could just lie down on the rough carpet...
 
-Type GATSBY to explore how The Great Gatsby follows the American Dream
+Type GATSBY to explore how The Great Gatsby interacts with the American Dream.
 GATSBY
 themes/american_dream_gatsby.txt
 
-Type CAMPBELL to explore how Warhol follows the American Dream
+Type CAMPBELL to explore how Warhol interacts with the American Dream.
 CAMPBELL
 themes/american_dream_soup.txt
+
+Type BACK to return to theme lobby.
+BACK
+lobbies/themes.txt

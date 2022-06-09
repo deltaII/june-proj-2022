@@ -5,16 +5,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 public class Room {
+	private String file;
 	private String message;
+	private String wander;
 	private ArrayList<Passageway> passageways;
 
-	public Room(String message, ArrayList<Passageway> passageways) {
+	public Room(String file, String message, String wander, ArrayList<Passageway> passageways) {
+		this.file = file;
 		this.message = message;
+		this.wander = wander;
 		this.passageways = passageways;
 	}
 
-	public Room(BufferedReader reader, ArrayList<String> roomFiles) 
+	public Room(String file, BufferedReader reader, ArrayList<String> roomFiles) 
 			throws IOException, Passageway.ParsingException {
+		this.file = file;
+		
 		// Read in message
 		//first line that isnt a comment or empty is message variable
 		String message;
@@ -35,6 +41,17 @@ public class Room {
 				break;
 			}
 		}
+		
+		// Read in wander
+		String wander;
+		while ((wander = reader.readLine()) != null) {
+			// Ignore empty lines and comments
+			if (wander.isEmpty() || wander.charAt(0) == '#') {
+				continue;
+			}
+			this.wander = wander;
+			break;
+		}
 
 		// Read in passageways
 		this.passageways = new ArrayList<Passageway>();
@@ -50,14 +67,22 @@ public class Room {
 			if (firstLineOfSet == null) {
 				return;
 			}
-			Passageway a = new Passageway(firstLineOfSet, reader, roomFiles);
+			Passageway a = new Passageway(file, firstLineOfSet, reader, roomFiles);
 			passageways.add(a);
 		}
 
 	}
+	
+	public String getFile() {
+		return file;
+	}
 
 	public String getMessage() {
 		return message;
+	}
+	
+	public String getWander() {
+		return wander;
 	}
 
 	public boolean hasPassageways() {
@@ -141,6 +166,11 @@ public class Room {
 		if (hasPassageways()) {
 			System.out.println();
 			for (Passageway passageway: passageways) {
+				try {
+					Thread.sleep(100);
+				} catch (InterruptedException e) {
+					System.err.println("You lost your way and stumbled into a locked room. Please tell us about this glitch in the code.");
+				}
 				System.out.println(" -> " + passageway.getExplanation());
 			}
 		}

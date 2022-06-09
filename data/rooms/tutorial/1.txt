@@ -1,0 +1,8 @@
+Welcome to tutorial room 1!
+\nThis is how a room will look: there will be text at the top, and below a list of passageways to go down.
+
+You are going into the first tutorial room.
+
+This is an example passageway. This one has a much longer description than all others. A passageway will tell you to type something to go through it. You can type something lowercase or with extra spaces and the game will still except it. If you type something slightly wrong, the game will try to guess which one you meant. For this one, type CONINUE.
+CONTINUE
+tutorial/2.txt

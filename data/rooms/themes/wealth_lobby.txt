@@ -1,13 +1,15 @@
 Welcome to the wealth lobby!
 
-Type BACK to go back to theme lobby
-BACK
-lobbies/themes.txt
+As you walk to the door on the right, you gaze at a scupture of the Monopoly Man. What an era!
 
-Type GATSBY to explore signs in The Great Gatsby
+Type GATSBY to explore wealth in The Great Gatsby
 GATSBY
 themes/wealth_gatsby.txt
 
 Type CAMPBELL to explore wealth in Warhol's Campbell Soup Cans
 CAMPBELL
 themes/wealth_soup.txt
+
+Type BACK to go back to theme lobby
+BACK
+lobbies/themes.txt

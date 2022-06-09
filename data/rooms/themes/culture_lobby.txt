@@ -1,8 +1,6 @@
 Welcome to the culture lobby!
 
-Type BACK to go back to theme lobby
-BACK
-lobbies/themes.txt
+Wander TBD
 
 Type GATSBY to explore how Gatsby treats culture
 GATSBY
@@ -11,3 +9,7 @@ themes/culture_gatsby.txt
 Type CAMPBELL to explore how Warhol treats culture
 CAMPBELL
 themes/culture_soup.txt
+
+Type BACK to go back to theme lobby
+BACK
+lobbies/themes.txt

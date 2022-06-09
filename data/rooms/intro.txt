@@ -8,6 +8,12 @@ The Museum of Ideas
 \n
 \nTry not to get lost! Or try to get lost...
 
+I see that you've returned...
+
 Type DARE if you dare to enter.
 DARE
 atrium.txt
+
+Type LEARN to complete the tutorial.
+LEARN
+tutorial/1.txt
