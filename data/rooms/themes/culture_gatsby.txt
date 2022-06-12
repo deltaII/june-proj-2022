@@ -1,7 +1,0 @@
-Gatsby Culture
-
-Wander TBD
-
-Type BACK to go back to culture theme lobby
-BACK
-themes/culture_lobby.txt
