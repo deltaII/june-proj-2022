@@ -16,9 +16,6 @@ lobbies/signs.txt
 themes/authentic_lobby.txt
 themes/authentic_gatsby.txt
 themes/authentic_soup.txt
-themes/culture_gatsby.txt
-themes/culture_lobby.txt
-themes/culture_soup.txt
 themes/wealth_lobby.txt
 themes/wealth_gatsby.txt
 themes/wealth_soup.txt
